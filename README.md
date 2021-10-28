@@ -1,19 +1,43 @@
-# Best DataScience Projects
+# Few of my DataScience Projects
 
-### Organisation:
+### Folder Organisation:
 
-ML_DL
-    |
-    |---- ML
-    |
-    |---- DL
-    |
-    |---- NLP
-          |
-          |----- Sentiment Analysis
-    |-----
-    |---- Others
+    |-- ML_DL_Modelling
+    |   |-- CV
+    |   |   |-- Document Scanner
+    |   |   |-- FaceRecognition
+    |   |   |-- HandDetection
+    |   |   |-- Object Detection
+    |   |   |-- QRBarScanner
+    |   |   |-- Virtual Attendance
+    |   |   |-- Virtual Painter
+    |   |   |-- Volume Controller
+    |   |-- DL
+    |   |   |-- Malaria Detection
+    |   |   |-- AnomalyDetection.ipynb
+    |   |   |-- BostonNeuralNetwork.ipynb
+    |   |   |-- CNNPyTorchCIFAR10.ipynb 
+    |   |   |-- MultiClassNeuralNetPyTorch_MNIST.ipynb
+    |   |   |-- PyTorchLinReg.ipynb
+    |   |-- ML
+    |   |   |-- data
+    |   |   |-- models
+    |   |   |-- AdamsOptimizer.ipynb 
+    |   |   |-- BirthRateAnalysis.ipynb
+    |   |   |-- BreastCancerDataset.ipynb
+    |   |   |-- BreastCancerWisconsinOriginal.ipynb
+    |   |   |-- Delhi_Weather_Forecasting_ARIMA.ipynb
+    |   |   |-- DiabetesDataset.ipynb
+    |   |   |-- GraduateAdmission.ipynb
+    |   |   |-- HabermanCSD_EDA_only.ipynb
+    |   |   |-- HousingPricePrediction.ipynb
+    |   |   |-- IPL Predictions.ipynb
+    |   |-- NLP
+    |   |   |-- BERT
+    |   |   |-- TFIDF
+    |   |   |   |-- SentimentAnalysis 
 
-### Citation
 
-If you like the work, please support my work by citing it. 
+### Reference
+
+If you like the work, please support by following me, and linking back to my projects. 
