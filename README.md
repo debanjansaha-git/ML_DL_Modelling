@@ -20,8 +20,10 @@
     |   |   |-- MultiClassNeuralNetPyTorch_MNIST.ipynb
     |   |   |-- PyTorchLinReg.ipynb
     |   |-- ML
-    |   |   |-- data
-    |   |   |-- models
+    |   |   |-- IPL Predictions
+    |   |   |   |-- data
+    |   |   |   |-- models
+    |   |   |   |-- IPL Predictions.ipynb
     |   |   |-- AdamsOptimizer.ipynb 
     |   |   |-- BirthRateAnalysis.ipynb
     |   |   |-- BreastCancerDataset.ipynb
@@ -31,7 +33,6 @@
     |   |   |-- GraduateAdmission.ipynb
     |   |   |-- HabermanCSD_EDA_only.ipynb
     |   |   |-- HousingPricePrediction.ipynb
-    |   |   |-- IPL Predictions.ipynb
     |   |-- NLP
     |   |   |-- BERT
     |   |   |-- TFIDF
