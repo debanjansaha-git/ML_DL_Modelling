@@ -20,6 +20,7 @@
     |   |   |-- MultiClassNeuralNetPyTorch_MNIST.ipynb
     |   |   |-- PyTorchLinReg.ipynb
     |   |-- ML
+    |   |   |-- data
     |   |   |-- IPL Predictions
     |   |   |   |-- data
     |   |   |   |-- models
