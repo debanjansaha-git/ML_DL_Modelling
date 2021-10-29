@@ -35,7 +35,7 @@
     |   |   |-- HousingPricePrediction.ipynb
     |   |-- NLP
     |   |   |-- Custom Question Answering using Transformers
-    |   |   |-- HuggingFace - Sentiment - BERT Base Multilingual (uncased)
+    |   |   |-- HuggingFace - Sentiment - BERT Base Multilingual (Uncased)
     |   |   |-- Sentiment Analysis - SMS Spam Filtering (Distil Bert Uncased)
     |   |   |-- Sentiment Analysis - Hotels Review
     |   |   |-- Sentiment Analysis - Sports
