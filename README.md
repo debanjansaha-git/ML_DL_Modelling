@@ -41,6 +41,8 @@
     |   |   |-- Sentiment Analysis - Hotels Review
     |   |   |-- Sentiment Analysis - Sports
     |   |   |-- Spam Detection
+    |   |   |-- Text Generation
+    |--- ---    
 
 
 ### Reference
