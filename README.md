@@ -23,9 +23,6 @@
     |   |   |-- Credit Card Fraud Detection
     |   |   |-- Credit Risk Analysis
     |   |   |-- IPL Predictions
-    |   |   |   |-- data
-    |   |   |   |-- models
-    |   |   |   |-- IPL Predictions.ipynb
     |   |   |-- data
     |   |   |-- AdamsOptimizer.ipynb 
     |   |   |-- BirthRateAnalysis.ipynb
@@ -37,11 +34,14 @@
     |   |   |-- HabermanCSD_EDA_only.ipynb
     |   |   |-- HousingPricePrediction.ipynb
     |   |-- NLP
-    |   |   |-- BERT
+    |   |   |-- Custom Question Answering using Transformers
+    |   |   |-- HuggingFace - Sentiment - BERT Base Multilingual (uncased)
+    |   |   |-- Sentiment Analysis - SMS Spam Filtering (Distil Bert Uncased)
     |   |   |-- Sentiment Analysis - Hotels Review
     |   |   |-- Sentiment Analysis - Sports
     |   |   |-- Spam Detection
     |   |   |-- Text Generation
+    |   |   |-- Text Summarization
     |--- ---    
 
 
