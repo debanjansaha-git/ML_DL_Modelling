@@ -15,6 +15,7 @@
     |   |-- DL
     |   |   |-- Malaria Detection
     |   |   |-- RL Shower Temperature
+    |   |   |-- Skin Cancer Lesion Classification
     |   |   |-- AnomalyDetection.ipynb
     |   |   |-- BostonNeuralNetwork.ipynb
     |   |   |-- CNNPyTorchCIFAR10.ipynb 
