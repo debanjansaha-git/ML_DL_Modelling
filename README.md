@@ -22,14 +22,15 @@
     |   |   |-- MultiClassNeuralNetPyTorch_MNIST.ipynb
     |   |   |-- PyTorchLinReg.ipynb
     |   |-- ML
+    |   |   |-- BreastCancerDWisconsin (Diagnostic)
+    |   |   |   |-- Breast Cancer Comprehensive EDA
+    |   |   |   |-- Breast Cancer Comprehensive Statistical Modelling
     |   |   |-- Credit Card Fraud Detection
     |   |   |-- Credit Risk Analysis
     |   |   |-- IPL Predictions
     |   |   |-- data
     |   |   |-- AdamsOptimizer.ipynb 
     |   |   |-- BirthRateAnalysis.ipynb
-    |   |   |-- BreastCancerDataset.ipynb
-    |   |   |-- BreastCancerWisconsinOriginal.ipynb
     |   |   |-- Delhi_Weather_Forecasting_ARIMA.ipynb
     |   |   |-- DiabetesDataset.ipynb
     |   |   |-- GraduateAdmission.ipynb
