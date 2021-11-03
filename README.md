@@ -14,6 +14,8 @@
     |   |   |-- Volume Controller
     |   |-- DL (Deep Learning)
     |   |   |-- Malaria Cell Detection
+    |   |   |   |-- Using CNN + FCN
+    |   |   |   |-- Using VGG19 and Transfer Learning    
     |   |   |-- RL Shower Temperature
     |   |   |-- Skin Cancer Lesion Classification
     |   |   |-- Stock Price Prediction using LSTM
