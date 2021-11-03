@@ -19,11 +19,10 @@
     |   |   |-- RL Shower Temperature
     |   |   |-- Skin Cancer Lesion Classification
     |   |   |-- Stock Price Prediction using LSTM
-    |   |   |-- AnomalyDetection.ipynb
-    |   |   |-- BostonNeuralNetwork.ipynb
-    |   |   |-- CNNPyTorchCIFAR10.ipynb 
-    |   |   |-- MultiClassNeuralNetPyTorch_MNIST.ipynb
-    |   |   |-- PyTorchLinReg.ipynb
+    |   |   |-- AnomalyDetection
+    |   |   |-- BostonNeuralNetwork
+    |   |   |-- CNNPyTorchCIFAR10
+    |   |   |-- MultiClassNeuralNetPyTorch_MNIST
     |   |-- ML (Machine Learning)
     |   |   |-- BreastCancerDWisconsin (Diagnostic)
     |   |   |   |-- Breast Cancer Comprehensive EDA
@@ -32,13 +31,14 @@
     |   |   |-- Credit Risk Analysis
     |   |   |-- IPL Predictions
     |   |   |-- data
-    |   |   |-- AdamsOptimizer.ipynb 
-    |   |   |-- BirthRateAnalysis.ipynb
-    |   |   |-- Delhi_Weather_Forecasting_ARIMA.ipynb
-    |   |   |-- DiabetesDataset.ipynb
-    |   |   |-- GraduateAdmission.ipynb
-    |   |   |-- HabermanCSD_EDA_only.ipynb
-    |   |   |-- HousingPricePrediction.ipynb
+    |   |   |-- AdamsOptimizer
+    |   |   |-- BirthRateAnalysis
+    |   |   |-- Delhi_Weather_Forecasting_ARIMA
+    |   |   |-- DiabetesDataset
+    |   |   |-- GraduateAdmission
+    |   |   |-- HabermanCSD_EDA_only
+    |   |   |-- Advanced Housing Price Prediction
+    |   |   |-- Linear Regression using PyTorch
     |   |-- NLP (Natural Language Processing)
     |   |   |-- Custom Question Answering using Transformers
     |   |   |-- HuggingFace - Sentiment - BERT Base Multilingual (Uncased)
