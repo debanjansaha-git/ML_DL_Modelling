@@ -5,7 +5,8 @@
     |-- ML_DL_Modelling
     |   |-- CV (Computer Vision)
     |   |   |-- Document Scanner
-    |   |   |-- FaceRecognition
+    |   |   |-- Face Recognition
+    |   |   |-- Face and Eye Recognition (Haar Cascade)
     |   |   |-- HandDetection
     |   |   |-- Object Detection
     |   |   |-- QRBarScanner
