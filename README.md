@@ -13,9 +13,10 @@
     |   |   |-- Virtual Painter
     |   |   |-- Volume Controller
     |   |-- DL
-    |   |   |-- Malaria Detection
+    |   |   |-- Malaria Cell Detection
     |   |   |-- RL Shower Temperature
     |   |   |-- Skin Cancer Lesion Classification
+    |   |   |-- Stock Price Prediction using LSTM
     |   |   |-- AnomalyDetection.ipynb
     |   |   |-- BostonNeuralNetwork.ipynb
     |   |   |-- CNNPyTorchCIFAR10.ipynb 
