@@ -3,7 +3,7 @@
 ### Folder Organisation:
 
     |-- ML_DL_Modelling
-    |   |-- CV
+    |   |-- CV (Computer Vision)
     |   |   |-- Document Scanner
     |   |   |-- FaceRecognition
     |   |   |-- HandDetection
@@ -12,7 +12,7 @@
     |   |   |-- Virtual Attendance
     |   |   |-- Virtual Painter
     |   |   |-- Volume Controller
-    |   |-- DL
+    |   |-- DL (Deep Learning)
     |   |   |-- Malaria Cell Detection
     |   |   |-- RL Shower Temperature
     |   |   |-- Skin Cancer Lesion Classification
@@ -22,7 +22,7 @@
     |   |   |-- CNNPyTorchCIFAR10.ipynb 
     |   |   |-- MultiClassNeuralNetPyTorch_MNIST.ipynb
     |   |   |-- PyTorchLinReg.ipynb
-    |   |-- ML
+    |   |-- ML (Machine Learning)
     |   |   |-- BreastCancerDWisconsin (Diagnostic)
     |   |   |   |-- Breast Cancer Comprehensive EDA
     |   |   |   |-- Breast Cancer Comprehensive Statistical Modelling
@@ -37,7 +37,7 @@
     |   |   |-- GraduateAdmission.ipynb
     |   |   |-- HabermanCSD_EDA_only.ipynb
     |   |   |-- HousingPricePrediction.ipynb
-    |   |-- NLP
+    |   |-- NLP (Natural Language Processing)
     |   |   |-- Custom Question Answering using Transformers
     |   |   |-- HuggingFace - Sentiment - BERT Base Multilingual (Uncased)
     |   |   |-- Sentiment Analysis - SMS Spam Filtering (Distil Bert Uncased)
