@@ -14,6 +14,7 @@
     |   |   |-- Virtual Painter
     |   |   |-- Volume Controller
     |   |-- DL (Deep Learning)
+    |   |   |-- Bidirectional LSTM using PyTorch
     |   |   |-- Malaria Cell Detection
     |   |   |   |-- Using CNN + FCN
     |   |   |   |-- Using VGG19 and Transfer Learning    
