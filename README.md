@@ -14,7 +14,6 @@
     |   |   |-- Virtual Painter
     |   |   |-- Volume Controller
     |   |-- DL (Deep Learning)
-    |   |   |-- DCGAN
     |   |   |-- Malaria Cell Detection
     |   |   |   |-- Using CNN + FCN
     |   |   |   |-- Using VGG19 and Transfer Learning    
@@ -25,6 +24,10 @@
     |   |   |-- BostonNeuralNetwork
     |   |   |-- CNNPyTorchCIFAR10
     |   |   |-- MultiClassNeuralNetPyTorch_MNIST
+    |   |-- GAN (Generative Adversarial Networks)
+    |   |   |-- DCGAN
+    |   |   |-- WGAN
+    |   |   |-- WGAN-GP
     |   |-- ML (Machine Learning)
     |   |   |-- BreastCancerDWisconsin (Diagnostic)
     |   |   |   |-- Breast Cancer Comprehensive EDA
