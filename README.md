@@ -14,6 +14,7 @@
     |   |   |-- Virtual Painter
     |   |   |-- Volume Controller
     |   |-- DL (Deep Learning)
+    |   |   |-- DCGAN
     |   |   |-- Malaria Cell Detection
     |   |   |   |-- Using CNN + FCN
     |   |   |   |-- Using VGG19 and Transfer Learning    
