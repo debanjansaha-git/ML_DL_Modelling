@@ -1,4 +1,9 @@
-# Face Recognition Attendance System
+# Virtual Attendance System using Face Recognition
+![Python](https://img.shields.io/badge/Python-3.x-python)
+![NumPy](https://img.shields.io/badge/NumPy-1.19.3-orange)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.5.1-blue)
+![face_recognition](https://img.shields.io/badge/face--recognition-1.4.0-brown)
+
 
 ## Introduction
 
@@ -31,14 +36,13 @@ This csv file is then used to load the records into any cloud database table whi
 
 ## Functionality
 
-The script captures webcam feed and resizes it for faster processing. 
-It then detects faces in the current frame using the `face_locations` function from the `face_recognition` library. 
-The script then encodes the detected faces for comparison with known faces using the `face_encodings` function.
-The script compares the encoded faces with the known faces using the `compare_faces` function and calculates the distance between the faces using the `face_distance` function. 
-The script then finds the closest match and verifies if it is a known face. 
-If a match is found, the name of the person is determined using the classnames list and the attendance is recorded in a csv file using the `markAttendance` function. 
-The recognized face is then highlighted on the video feed with a rectangle and the person's name is displayed on top of the rectangle. 
-The code runs in a continuous loop until the 'q' key is pressed, which breaks the loop and exits the program.
+The code uses the `cv2` library to capture video frames from the computer's webcam, and the `face_recognition` library to detect faces within these frames. The `face_locations` function from the `face_recognition.api` module is used to detect the coordinates of the bounding boxes around faces within an image, and the `face_encodings` function is used to generate a 128-dimensional encoding for each face. These encodings are used to compare and match the faces in the webcam feed to the known faces in the dataset.
+
+The module reads the images of the known people from a folder called "KnownDB" and encodes the images using the `findEncodings` function, which applies the `face_encodings` function to each image. The resulting encodings are stored in a variable called `knownFaces`.
+
+The `while True` loop in the code captures frames from the webcam and resizes them for faster processing. The `face_locations` and `face_encodings` functions are applied to the current frame to detect faces and generate encodings. The `compare_faces` function is then used to compare the encodings of the detected faces to the known faces in the dataset, and the `face_distance` function is used to calculate the distance between the encodings. The face with the smallest distance is considered the best match and its corresponding name is displayed on the screen.
+
+The `markAttendance` function is used to record the attendance of the recognized person in a CSV file with the current time stamp.
 
 ## Usage
 
