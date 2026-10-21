@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+matplotlib
+seaborn
+torch
+torchvision
+pillow
+ipython
+jupyterlab
