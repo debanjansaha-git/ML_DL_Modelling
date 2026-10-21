@@ -1,0 +1,10 @@
+numpy
+pandas
+statsmodels
+opencv-python
+opencv-contrib-python
+zxing-cpp
+matplotlib
+seaborn
+ipython
+jupyterlab
