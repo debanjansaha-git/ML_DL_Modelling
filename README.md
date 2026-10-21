@@ -3,7 +3,7 @@
 > Learn ML, Deep Learning, GANs, NLP and Computer Vision by **testing hypotheses, not tuning accuracy**.
 > Every project starts with a plain-English analogy, states a hypothesis, backs it with real statistics, and ends with a chart that tells the story.
 
-**▶ Interactive stories:** `docs/index.html` (GitHub Pages) · **Status:** 🚧 revamp in progress — projects marked ⏳ are legacy code awaiting their rewrite.
+**▶ Interactive stories:** [`docs/index.html`](docs/index.html) (served by GitHub Pages: a searchable index of every report) · **Status:** 🚧 revamp in progress — projects marked ⏳ are legacy code awaiting their rewrite.
 
 ## ⚡ Quick start
 

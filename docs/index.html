@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Science Lab</title>
+<meta name="description" content="Learn ML, deep learning, GANs, NLP and computer vision by testing hypotheses, not tuning accuracy.">
+<style>
+:root{--bg:#f7f8f9;--card:#ffffff;--ink:#1c2b33;--muted:#5d6b73;--line:#e1e5e8;--teal:#2a9d8f;--navy:#264653;--orange:#e76f51;--chip:#eaf4f2}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10181c;--card:#172228;--ink:#e6eef1;--muted:#93a4ad;--line:#27363d;--chip:#1c3a37}}
+:root[data-theme="dark"]{--bg:#10181c;--card:#172228;--ink:#e6eef1;--muted:#93a4ad;--line:#27363d;--chip:#1c3a37}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header{padding:48px 0 24px}
+h1{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.15;margin:0 0 12px}
+h1 span{color:var(--teal)}
+.lead{color:var(--muted);max-width:720px;margin:0 0 20px;font-size:1.08rem}
+.stats{display:flex;gap:12px;flex-wrap:wrap;margin:0 0 20px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 16px}
+.stat b{display:block;font-size:1.5rem;color:var(--teal)}
+.stat small{color:var(--muted)}
+.tools{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:8px 0 28px}
+input[type=search]{flex:1 1 220px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:7px 14px;cursor:pointer;font:inherit;font-size:.92rem}
+.chip[aria-pressed=true]{background:var(--teal);border-color:var(--teal);color:#fff}
+section{margin:0 0 36px}
+h2{font-size:1.25rem;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 14px;font-size:.95rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:1.05rem}
+.card p{margin:0;color:var(--muted);font-size:.93rem;flex:1}
+.meta{display:flex;gap:8px;align-items:center;font-size:.8rem}
+.badge{padding:2px 9px;border-radius:999px;background:var(--chip);color:var(--navy)}
+@media (prefers-color-scheme:dark){.badge{color:#bfe9e3}}
+.soon{background:transparent;border:1px dashed var(--line);color:var(--muted)}
+.links{display:flex;gap:14px;font-size:.93rem}
+a{color:var(--teal);text-decoration:none;font-weight:600}
+a:hover{text-decoration:underline}
+.card.pending{opacity:.72}
+.how{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:0 0 36px}
+.how h2{margin-bottom:8px}
+.how ul{margin:8px 0 0;padding-left:20px;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);font-size:.9rem}
+.empty{display:none;color:var(--muted);padding:20px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Data Science &amp; AI <span>Lab</span></h1>
+  <p class="lead">Learn ML, deep learning, GANs, NLP and computer vision by <strong>testing hypotheses, not tuning accuracy</strong>. Every project starts with a plain-English analogy, states a hypothesis, backs it with real statistics, and ends with a chart that tells the story.</p>
+  <div class="stats">
+    <div class="stat"><b>11</b><small>reports ready</small></div>
+    <div class="stat"><b>41</b><small>projects in the curriculum</small></div>
+    <div class="stat"><b>5</b><small>tracks</small></div>
+  </div>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Search projects, methods, topics..." aria-label="Search projects">
+    <span id="chips"></span>
+  </div>
+</header>
+
+<div class="how">
+  <h2>How every report is built</h2>
+  <ul>
+    <li><b>The simple analogy</b> first, then the maths.</li>
+    <li><b>Hypotheses</b> (H₀ and Hₐ) written before any result, tested with p-values, effect sizes and confidence intervals.</li>
+    <li><b>Leak-free evaluation</b> (cross-validation with the preprocessing inside the pipeline) and honest limitations.</li>
+    <li>Each report is a rendered Jupyter notebook; the source notebook and project README live on GitHub.</li>
+  </ul>
+</div>
+
+<main id="main"></main>
+<p class="empty" id="empty">No project matches that search.</p>
+
+<footer>
+  <a href="https://github.com/debanjansaha-git/ML_DL_Modelling">Source on GitHub</a> &middot; MIT licensed &middot; Suggested path: Beginner &rarr; Intermediate &rarr; Advanced.
+</footer>
+</div>
+
+<script>
+const PROJECTS = [{"track": "ML", "name": "Haberman Survival", "learns": "EDA, Mann-Whitney U, chi-square, leakage-safe CV", "level": "Beginner", "done": true, "page": "ml-haberman.html", "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/ML/haberman-survival"}, {"track": "ML", "name": "Diabetes Risk", "learns": "Spearman, Kruskal-Wallis, odds ratios, collinearity, honest CV", "level": "Beginner", "done": true, "page": "ml-diabetes-risk.html", "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/ML/diabetes-risk"}, {"track": "ML", "name": "Birth Rate Analysis", "learns": "Calendar effects, paired and rank tests, rolling-origin forecasting", "level": "Beginner", "done": true, "page": "ml-birth-rate-analysis.html", "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/ML/birth-rate-analysis"}, {"track": "ML", "name": "Breast Cancer Wisconsin", "learns": "Effect sizes, collinearity, nested CV, sensitivity-vs-false-alarm trade-off", "level": "Beginner", "done": true, "page": "ml-breast-cancer-wisconsin.html", "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/ML/breast-cancer-wisconsin"}, {"track": "ML", "name": "Graduate Admission", "learns": "Confounding, collinearity, robust regression, permutation importance", "level": "Intermediate", "done": true, "page": "ml-graduate-admission.html", "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/ML/graduate-admission"}, {"track": "ML", "name": "Housing Price Prediction", "learns": "Log targets, partial F-test, regularisation, leak-free CV (Ames)", "level": "Intermediate", "done": true, "page": "ml-housing-price-prediction.html", "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/ML/housing-price-prediction"}, {"track": "ML", "name": "Credit Risk Analysis", "learns": "Odds ratios, calibration, cost-based decisions, fairness audit", "level": "Intermediate", "done": true, "page": "ml-credit-risk-analysis.html", "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/ML/credit-risk-analysis"}, {"track": "ML", "name": "Credit Card Fraud Detection", "learns": "Rare events, average precision, cost-based thresholds, time-ordered validation", "level": "Intermediate", "done": true, "page": "ml-credit-card-fraud-detection.html", "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/ML/credit-card-fraud-detection"}, {"track": "ML", "name": "IPL Score Prediction", "learns": "Time-aware evaluation, drift, cluster bootstrap, prediction intervals", "level": "Intermediate", "done": true, "page": "ml-ipl-score-prediction.html", "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/ML/ipl-score-prediction"}, {"track": "ML", "name": "Delhi Weather ARIMA", "learns": "Trend tests, stationarity, AR forecasting skill by horizon", "level": "Advanced", "done": true, "page": "ml-delhi-weather-arima.html", "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/ML/delhi-weather-arima"}, {"track": "DL", "name": "Linear Regression in PyTorch", "learns": "Autograd, gradient descent", "level": "Beginner", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/DL/linear-regression-pytorch"}, {"track": "DL", "name": "Adam Optimizer", "learns": "Adam from scratch, fair optimiser races, learning-rate sensitivity", "level": "Beginner", "done": true, "page": "dl-adam-optimizer.html", "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/DL/adam-optimizer"}, {"track": "DL", "name": "Housing Regression NN", "learns": "MLPs vs tree baselines", "level": "Intermediate", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/DL/housing-regression-nn"}, {"track": "DL", "name": "MNIST Multiclass", "learns": "Softmax, cross-entropy", "level": "Intermediate", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/DL/mnist-multiclass"}, {"track": "DL", "name": "CIFAR-10 CNN", "learns": "Convolutions, augmentation", "level": "Intermediate", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/DL/cifar10-cnn"}, {"track": "DL", "name": "Malaria Cell Classification", "learns": "Transfer learning, medical imaging", "level": "Intermediate", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/DL/malaria-cell-classification"}, {"track": "DL", "name": "Skin Cancer (HAM10000)", "learns": "Class imbalance, fairness", "level": "Intermediate", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/DL/skin-cancer-lesion-classification"}, {"track": "DL", "name": "Bidirectional LSTM", "learns": "Sequence models", "level": "Advanced", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/DL/bidirectional-lstm"}, {"track": "DL", "name": "Stock Price LSTM", "learns": "Why forecasting prices fails", "level": "Advanced", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/DL/stock-price-lstm"}, {"track": "DL", "name": "ECG Anomaly Detection", "learns": "Autoencoders", "level": "Advanced", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/DL/ecg-anomaly-detection"}, {"track": "DL", "name": "RL Shower Temperature", "learns": "Reinforcement learning basics", "level": "Advanced", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/DL/rl-shower-temperature"}, {"track": "GAN", "name": "DCGAN", "learns": "Why vanilla GANs collapse and how each paper fixes it", "level": "Advanced", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/GAN/dcgan"}, {"track": "GAN", "name": "WGAN", "learns": "Why vanilla GANs collapse and how each paper fixes it", "level": "Advanced", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/GAN/wgan"}, {"track": "GAN", "name": "WGAN-GP", "learns": "Why vanilla GANs collapse and how each paper fixes it", "level": "Advanced", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/GAN/wgan-gp"}, {"track": "NLP", "name": "Spam Detection (TF-IDF)", "learns": "Bag-of-words baseline", "level": "Beginner", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/NLP/spam-detection-tfidf"}, {"track": "NLP", "name": "SMS Spam with DistilBERT", "learns": "Fine-tuning vs baseline", "level": "Intermediate", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/NLP/sms-spam-distilbert"}, {"track": "NLP", "name": "Hotel Review Sentiment", "learns": "Text classification at scale", "level": "Intermediate", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/NLP/hotel-review-sentiment"}, {"track": "NLP", "name": "Sports Sentiment", "learns": "Noisy social text", "level": "Intermediate", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/NLP/sports-sentiment"}, {"track": "NLP", "name": "Multilingual Sentiment (BERT)", "learns": "Multilingual transfer", "level": "Intermediate", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/NLP/multilingual-sentiment-bert"}, {"track": "NLP", "name": "Text Summarization", "learns": "Extractive vs abstractive", "level": "Intermediate", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/NLP/text-summarization"}, {"track": "NLP", "name": "Text Generation", "learns": "Language modelling", "level": "Advanced", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/NLP/text-generation"}, {"track": "NLP", "name": "Question Answering", "learns": "Extractive QA", "level": "Advanced", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/NLP/question-answering"}, {"track": "CV", "name": "Document Scanner", "learns": "Edges, contours, perspective warp", "level": "Beginner", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/CV/document-scanner"}, {"track": "CV", "name": "QR & Barcode Scanner", "learns": "Decoding patterns", "level": "Beginner", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/CV/qr-barcode-scanner"}, {"track": "CV", "name": "Haar Face & Eye Detection", "learns": "Classic detectors", "level": "Beginner", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/CV/haar-face-eye-detection"}, {"track": "CV", "name": "Virtual Painter", "learns": "Colour masks, tracking", "level": "Intermediate", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/CV/virtual-painter"}, {"track": "CV", "name": "Hand Detection", "learns": "MediaPipe landmarks", "level": "Intermediate", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/CV/hand-detection"}, {"track": "CV", "name": "Gesture Volume Controller", "learns": "Landmarks → control signal", "level": "Intermediate", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/CV/gesture-volume-controller"}, {"track": "CV", "name": "Object Detection", "learns": "Modern detectors", "level": "Advanced", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/CV/object-detection"}, {"track": "CV", "name": "Face Recognition", "learns": "Embeddings and thresholds", "level": "Advanced", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/CV/face-recognition"}, {"track": "CV", "name": "Virtual Attendance", "learns": "End-to-end face pipeline", "level": "Advanced", "done": false, "page": null, "code": "https://github.com/debanjansaha-git/ML_DL_Modelling/tree/master/CV/virtual-attendance"}];
+const TRACKS = {"ML": "Machine Learning", "DL": "Deep Learning", "GAN": "Generative Models", "NLP": "Natural Language Processing", "CV": "Computer Vision"};
+const state = {track: "All", query: ""};
+const main = document.getElementById("main");
+const chips = document.getElementById("chips");
+
+function esc(s){return s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+
+function renderChips(){
+  const names = ["All", ...Object.keys(TRACKS)];
+  chips.innerHTML = names.map(n =>
+    `<button class="chip" aria-pressed="${state.track === n}" data-track="${n}">${n}</button>`).join(" ");
+  chips.querySelectorAll("button").forEach(b => b.onclick = () => {state.track = b.dataset.track; render();});
+}
+
+function card(p){
+  const reportLink = p.page ? `<a href="${p.page}">Read the report</a>` : `<span class="badge soon">coming soon</span>`;
+  return `<article class="card ${p.page ? "" : "pending"}">
+    <div class="meta"><span class="badge">${p.level}</span><span class="badge">${p.track}</span></div>
+    <h3>${esc(p.name)}</h3>
+    <p>${esc(p.learns)}</p>
+    <div class="links">${reportLink}<a href="${p.code}">Code &amp; README</a></div>
+  </article>`;
+}
+
+function render(){
+  renderChips();
+  const q = state.query.trim().toLowerCase();
+  let html = "", shown = 0;
+  for (const [key, title] of Object.entries(TRACKS)){
+    if (state.track !== "All" && state.track !== key) continue;
+    const items = PROJECTS.filter(p => p.track === key &&
+      (!q || (p.name + " " + p.learns + " " + p.level).toLowerCase().includes(q)));
+    if (!items.length) continue;
+    shown += items.length;
+    const ready = items.filter(p => p.page).length;
+    html += `<section><h2>${title}</h2><p class="sub">${ready} of ${items.length} reports ready</p>
+      <div class="grid">${items.map(card).join("")}</div></section>`;
+  }
+  main.innerHTML = html;
+  document.getElementById("empty").style.display = shown ? "none" : "block";
+}
+
+document.getElementById("q").addEventListener("input", e => {state.query = e.target.value; render();});
+render();
+</script>
+</body>
+</html>
