@@ -24,7 +24,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | Level | Project | You'll learn | Status |
 |---|---|---|---|
 | 🟢 | [Haberman Survival](ML/haberman-survival) | EDA, Mann-Whitney U, chi-square, leakage-safe CV | ✅ |
-| 🟢 | [Diabetes Risk](ML/diabetes-risk) | Feature tests, logistic regression | ⏳ |
+| 🟢 | [Diabetes Risk](ML/diabetes-risk) | Spearman, Kruskal-Wallis, odds ratios, collinearity, honest CV | ✅ |
 | 🟢 | [Birth Rate Analysis](ML/birth-rate-analysis) | Outliers, time trends | ⏳ |
 | 🟢 | [Breast Cancer Wisconsin](ML/breast-cancer-wisconsin) | t-tests for feature selection, classification | ⏳ |
 | 🟡 | [Graduate Admission](ML/graduate-admission) | Regression, assumptions, CIs | ⏳ |
