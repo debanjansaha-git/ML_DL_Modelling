@@ -31,7 +31,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟡 | [Housing Price Prediction](ML/housing-price-prediction) | Log targets, partial F-test, regularisation, leak-free CV (Ames) | ✅ |
 | 🟡 | [Credit Risk Analysis](ML/credit-risk-analysis) | Odds ratios, calibration, cost-based decisions, fairness audit | ✅ |
 | 🟡 | [Credit Card Fraud Detection](ML/credit-card-fraud-detection) | Rare events, average precision, cost-based thresholds, time-ordered validation | ✅ |
-| 🟡 | [IPL Score Prediction](ML/ipl-score-prediction) | Feature engineering, ridge/lasso | ⏳ |
+| 🟡 | [IPL Score Prediction](ML/ipl-score-prediction) | Time-aware evaluation, drift, cluster bootstrap, prediction intervals | ✅ |
 | 🔴 | [Delhi Weather ARIMA](ML/delhi-weather-arima) | Trend tests, stationarity, AR forecasting skill by horizon | ✅ |
 
 ### 2 · Deep Learning (`DL/`, PyTorch)
