@@ -72,7 +72,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | Level | Project | You'll learn | Status |
 |---|---|---|---|
 | 🟢 | [Document Scanner](CV/document-scanner) | Measuring a classic OpenCV recipe on synthetic photos with known truth | ✅ |
-| 🟢 | [QR & Barcode Scanner](CV/qr-barcode-scanner) | Decoder cliffs, a resize bug, and why a QR code is not a password | ✅ |
+| 🟢 | [Haar Face Detection](CV/haar-face-eye-detection) | The classic cascade vs modern detectors on WIDER FACE | ✅ |
 | 🟢 | [Haar Face & Eye Detection](CV/haar-face-eye-detection) | Classic detectors | ⏳ |
 | 🟢 | [Virtual Painter](CV/virtual-painter) | Tracking a coloured pen under changing light, with exact ground truth | ✅ |
 | 🟡 | [Hand Detection](CV/hand-detection) | MediaPipe landmarks | ⏳ |
