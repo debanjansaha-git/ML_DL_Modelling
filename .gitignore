@@ -1,8 +1,61 @@
-.ipynb_checkpoints
-**/*.ipynb_checkpoints/
-**/.*  # ignore all hidden files and folders
-!/.gitignore  # explicitly do not ignore .gitignore
-.*/.ipynb_checkpoints/*.ipynb
-.vscode
-*/.vscode/*
-*/venv/*
+# --- Environments ---
+.venv/
+venv/
+env/
+.python-version.local
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# --- Data, models, outputs (regenerate with each project's download/train script) ---
+data/
+datasets/
+dataset/
+models/
+checkpoints/
+outputs/
+output/
+runs/
+lightning_logs/
+wandb/
+
+# --- Model weights & binary artifacts ---
+*.h5
+*.hdf5
+*.h5f*
+*.pb
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.pth.tar
+*.ckpt
+*.onnx
+*.safetensors
+*.keras
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Claude Code (CLAUDE.md stays tracked) ---
+.claude/
+CLAUDE.md
+
+# --- Allow-list: small demo outputs that docs/ pages reference ---
+!docs/**
+
+# --- Runtime state written by demos ---
+CV/virtual-attendance/attendance.csv
+CV/qr-barcode-scanner/Registered.txt

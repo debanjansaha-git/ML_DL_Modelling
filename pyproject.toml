@@ -1,0 +1,47 @@
+[project]
+name = "ml-dl-lab"
+version = "0.1.0"
+description = "Open-source learning lab for Data Science, ML, DL, GANs, NLP and Computer Vision"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "statsmodels",
+    "scikit-learn",
+    "matplotlib",
+    "seaborn",
+    "jupyterlab",
+    "ipykernel",
+]
+
+# Install only the track you need, e.g. `uv sync --extra nlp`.
+[project.optional-dependencies]
+ml = ["xgboost", "lightgbm", "imbalanced-learn", "skops", "pmdarima"]
+dl = ["torch", "torchvision", "torchaudio", "torchmetrics", "tensorboard", "gymnasium", "stable-baselines3"]
+gan = ["torch", "torchvision", "diffusers", "torchmetrics[image]"]
+nlp = ["torch", "transformers", "datasets", "evaluate", "accelerate", "nltk", "safetensors"]
+cv = ["opencv-python", "mediapipe", "scikit-image", "onnxruntime", "torch", "torchvision"]
+dev = ["ruff", "nbstripout", "pytest", "pre-commit", "pip-audit"]
+
+[tool.uv]
+# Projects are standalone lessons, not an installable library.
+package = false
+default-groups = []
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = ["*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "D"]
+ignore = ["D203", "D213"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
