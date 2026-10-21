@@ -52,7 +52,9 @@ Data and model weights are **not** stored in git. Each project downloads what it
 ### 3 · Generative Models (`GAN/`)
 | Level | Project | You'll learn | Status |
 |---|---|---|---|
-| 🔴 | [DCGAN](GAN/dcgan) → [WGAN](GAN/wgan) → [WGAN-GP](GAN/wgan-gp) | Why vanilla GANs collapse and how each paper fixes it | ⏳ |
+| 🔴 | [DCGAN](GAN/dcgan) | Judging a GAN with a referee, recipe sensitivity, memorisation | ✅ |
+| 🔴 | [WGAN](GAN/wgan) | Wasserstein loss and weight clipping | ⏳ |
+| 🔴 | [WGAN-GP](GAN/wgan-gp) | Gradient penalty versus clipping | ⏳ |
 
 ### 4 · Natural Language Processing (`NLP/`, 🤗 Transformers)
 | Level | Project | You'll learn | Status |
