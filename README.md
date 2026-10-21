@@ -28,7 +28,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟢 | [Birth Rate Analysis](ML/birth-rate-analysis) | Calendar effects, paired and rank tests, rolling-origin forecasting | ✅ |
 | 🟢 | [Breast Cancer Wisconsin](ML/breast-cancer-wisconsin) | Effect sizes, collinearity, nested CV, sensitivity-vs-false-alarm trade-off | ✅ |
 | 🟡 | [Graduate Admission](ML/graduate-admission) | Regression, assumptions, CIs | ⏳ |
-| 🟡 | [Housing Price Prediction](ML/housing-price-prediction) | Regularisation, leakage checks (Ames) | ⏳ |
+| 🟡 | [Housing Price Prediction](ML/housing-price-prediction) | Log targets, partial F-test, regularisation, leak-free CV (Ames) | ✅ |
 | 🟡 | [Credit Risk Analysis](ML/credit-risk-analysis) | Imbalance, calibration | ⏳ |
 | 🟡 | [Credit Card Fraud Detection](ML/credit-card-fraud-detection) | Precision vs recall, rare events | ⏳ |
 | 🟡 | [IPL Score Prediction](ML/ipl-score-prediction) | Feature engineering, ridge/lasso | ⏳ |
