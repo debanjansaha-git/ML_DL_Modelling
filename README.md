@@ -71,7 +71,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 ### 5 · Computer Vision (`CV/`, OpenCV + MediaPipe)
 | Level | Project | You'll learn | Status |
 |---|---|---|---|
-| 🟢 | [Document Scanner](CV/document-scanner) | Edges, contours, perspective warp | ⏳ |
+| 🟢 | [Document Scanner](CV/document-scanner) | Measuring a classic OpenCV recipe on synthetic photos with known truth | ✅ |
 | 🟢 | [QR & Barcode Scanner](CV/qr-barcode-scanner) | Decoding patterns | ⏳ |
 | 🟢 | [Haar Face & Eye Detection](CV/haar-face-eye-detection) | Classic detectors | ⏳ |
 | 🟡 | [Virtual Painter](CV/virtual-painter) | Colour masks, tracking | ⏳ |
