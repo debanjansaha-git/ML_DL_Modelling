@@ -41,7 +41,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟢 | [Adam Optimizer](DL/adam-optimizer) | Adam from scratch, fair optimiser races, learning-rate sensitivity | ✅ |
 | 🟡 | [Housing Regression NN](DL/housing-regression-nn) | MLPs vs tree baselines | ⏳ |
 | 🟡 | [MNIST Multiclass](DL/mnist-multiclass) | Softmax, cross-entropy | ⏳ |
-| 🟡 | [CIFAR-10 CNN](DL/cifar10-cnn) | Convolutions, augmentation | ⏳ |
+| 🟡 | [CIFAR-10 CNN](DL/cifar10-cnn) | Model ladder, augmentation, McNemar tests, confusion analysis | ✅ |
 | 🟡 | [Malaria Cell Classification](DL/malaria-cell-classification) | Transfer learning, medical imaging | ⏳ |
 | 🟡 | [Skin Cancer (HAM10000)](DL/skin-cancer-lesion-classification) | Class imbalance, fairness | ⏳ |
 | 🔴 | [Bidirectional LSTM](DL/bidirectional-lstm) | Sequence models | ⏳ |
