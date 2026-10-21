@@ -43,7 +43,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟡 | [MNIST Multiclass](DL/mnist-multiclass) | Softmax from scratch, calibration, shift robustness | ✅ |
 | 🟡 | [CIFAR-10 CNN](DL/cifar10-cnn) | Model ladder, augmentation, McNemar tests, confusion analysis | ✅ |
 | 🟡 | [Malaria Cell Classification](DL/malaria-cell-classification) | Colour baseline, transfer learning, slide-level splits | ✅ |
-| 🟡 | [Skin Cancer (HAM10000)](DL/skin-cancer-lesion-classification) | Class imbalance, fairness | ⏳ |
+| 🟡 | [Skin Cancer (HAM10000)](DL/skin-cancer-lesion-classification) | Leakage from resampling, imbalance, melanoma trade-offs | ✅ |
 | 🔴 | [Bidirectional LSTM](DL/bidirectional-lstm) | Readout bug, direction vs capacity, row order | ✅ |
 | 🔴 | [Stock Price LSTM](DL/stock-price-lstm) | Random walk, persistence baseline, Diebold-Mariano | ✅ |
 | 🔴 | [ECG Anomaly Detection](DL/ecg-anomaly-detection) | Autoencoders, baselines, thresholds, dirty training data | ✅ |
