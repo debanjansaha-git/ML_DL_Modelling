@@ -29,7 +29,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟢 | [Breast Cancer Wisconsin](ML/breast-cancer-wisconsin) | Effect sizes, collinearity, nested CV, sensitivity-vs-false-alarm trade-off | ✅ |
 | 🟡 | [Graduate Admission](ML/graduate-admission) | Confounding, collinearity, robust regression, permutation importance | ✅ |
 | 🟡 | [Housing Price Prediction](ML/housing-price-prediction) | Log targets, partial F-test, regularisation, leak-free CV (Ames) | ✅ |
-| 🟡 | [Credit Risk Analysis](ML/credit-risk-analysis) | Imbalance, calibration | ⏳ |
+| 🟡 | [Credit Risk Analysis](ML/credit-risk-analysis) | Odds ratios, calibration, cost-based decisions, fairness audit | ✅ |
 | 🟡 | [Credit Card Fraud Detection](ML/credit-card-fraud-detection) | Rare events, average precision, cost-based thresholds, time-ordered validation | ✅ |
 | 🟡 | [IPL Score Prediction](ML/ipl-score-prediction) | Feature engineering, ridge/lasso | ⏳ |
 | 🔴 | [Delhi Weather ARIMA](ML/delhi-weather-arima) | Trend tests, stationarity, AR forecasting skill by horizon | ✅ |
