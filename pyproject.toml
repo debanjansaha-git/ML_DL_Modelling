@@ -24,7 +24,7 @@ dl = ["torch", "torchvision", "torchaudio", "torchmetrics", "tensorboard", "gymn
 gan = ["torch", "torchvision", "diffusers", "torchmetrics[image]"]
 nlp = ["torch", "transformers", "datasets", "evaluate", "accelerate", "nltk", "safetensors"]
 cv = ["opencv-python", "mediapipe", "scikit-image", "onnxruntime", "torch", "torchvision"]
-dev = ["ruff", "nbstripout", "pytest", "pre-commit", "pip-audit"]
+dev = ["ruff", "pytest", "pre-commit", "pip-audit"]
 
 [tool.uv]
 # Projects are standalone lessons, not an installable library.

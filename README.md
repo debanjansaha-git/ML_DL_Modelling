@@ -23,7 +23,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 ### 1 · Machine Learning (`ML/`)
 | Level | Project | You'll learn | Status |
 |---|---|---|---|
-| 🟢 | [Haberman Survival](ML/haberman-survival) | EDA, Mann-Whitney U, chi-square | ⏳ |
+| 🟢 | [Haberman Survival](ML/haberman-survival) | EDA, Mann-Whitney U, chi-square, leakage-safe CV | ✅ |
 | 🟢 | [Diabetes Risk](ML/diabetes-risk) | Feature tests, logistic regression | ⏳ |
 | 🟢 | [Birth Rate Analysis](ML/birth-rate-analysis) | Outliers, time trends | ⏳ |
 | 🟢 | [Breast Cancer Wisconsin](ML/breast-cancer-wisconsin) | t-tests for feature selection, classification | ⏳ |
@@ -90,7 +90,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 ```
 
 ## 🛠️ Tooling
-`uv` for environments · `ruff` for lint and Google-style docstrings · `nbstripout` to keep notebook outputs out of git · `pip-audit` for CVEs.
+`uv` for environments · `ruff` for lint and Google-style docstrings · `pip-audit` for CVEs.
 
 ## 🤝 Contributing
 Open an issue or PR. Follow the project layout above and state your null and alternative hypotheses before modelling.
