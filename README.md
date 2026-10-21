@@ -45,7 +45,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟡 | [Malaria Cell Classification](DL/malaria-cell-classification) | Colour baseline, transfer learning, slide-level splits | ✅ |
 | 🟡 | [Skin Cancer (HAM10000)](DL/skin-cancer-lesion-classification) | Class imbalance, fairness | ⏳ |
 | 🔴 | [Bidirectional LSTM](DL/bidirectional-lstm) | Readout bug, direction vs capacity, row order | ✅ |
-| 🔴 | [Stock Price LSTM](DL/stock-price-lstm) | Why forecasting prices fails | ⏳ |
+| 🔴 | [Stock Price LSTM](DL/stock-price-lstm) | Random walk, persistence baseline, Diebold-Mariano | ✅ |
 | 🔴 | [ECG Anomaly Detection](DL/ecg-anomaly-detection) | Autoencoders, baselines, thresholds, dirty training data | ✅ |
 | 🔴 | [RL Shower Temperature](DL/rl-shower-temperature) | Exact solution, rescaling, table vs DQN, extrapolation | ✅ |
 
