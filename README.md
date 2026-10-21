@@ -60,7 +60,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟢 | [Spam Detection (TF-IDF)](NLP/spam-detection-tfidf) | TF-IDF, leakage checks, disguised spam | ✅ |
 | 🟡 | [SMS Spam with DistilBERT](NLP/sms-spam-distilbert) | Fine-tuning vs baseline | ⏳ |
 | 🟡 | [Hotel Review Sentiment](NLP/hotel-review-sentiment) | Text classification at scale | ⏳ |
-| 🟡 | [Sports Sentiment](NLP/sports-sentiment) | Noisy social text | ⏳ |
+| 🟡 | [Stock News Direction](NLP/stock-news-direction) | A split bug behind an 86% accuracy, base rates | ✅ |
 | 🟡 | [Multilingual Sentiment (BERT)](NLP/multilingual-sentiment-bert) | Multilingual transfer | ⏳ |
 | 🟡 | [Text Summarization](NLP/text-summarization) | Extractive vs abstractive | ⏳ |
 | 🔴 | [Text Generation](NLP/text-generation) | Language modelling | ⏳ |
