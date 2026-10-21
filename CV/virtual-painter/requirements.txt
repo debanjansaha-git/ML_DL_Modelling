@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+statsmodels
+opencv-python
+scikit-image
+matplotlib
+seaborn
+ipython
+jupyterlab

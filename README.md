@@ -74,7 +74,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟢 | [Document Scanner](CV/document-scanner) | Measuring a classic OpenCV recipe on synthetic photos with known truth | ✅ |
 | 🟢 | [QR & Barcode Scanner](CV/qr-barcode-scanner) | Decoder cliffs, a resize bug, and why a QR code is not a password | ✅ |
 | 🟢 | [Haar Face & Eye Detection](CV/haar-face-eye-detection) | Classic detectors | ⏳ |
-| 🟡 | [Virtual Painter](CV/virtual-painter) | Colour masks, tracking | ⏳ |
+| 🟢 | [Virtual Painter](CV/virtual-painter) | Tracking a coloured pen under changing light, with exact ground truth | ✅ |
 | 🟡 | [Hand Detection](CV/hand-detection) | MediaPipe landmarks | ⏳ |
 | 🟡 | [Gesture Volume Controller](CV/gesture-volume-controller) | Landmarks → control signal | ⏳ |
 | 🔴 | [Object Detection](CV/object-detection) | Modern detectors | ⏳ |
