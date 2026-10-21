@@ -63,7 +63,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟡 | [Stock News Direction](NLP/stock-news-direction) | A split bug behind an 86% accuracy, base rates | ✅ |
 | 🟡 | [Multilingual Sentiment (BERT)](NLP/multilingual-sentiment-bert) | Multilingual transfer | ⏳ |
 | 🟡 | [Text Summarization](NLP/text-summarization) | Extractive vs abstractive | ⏳ |
-| 🔴 | [Text Generation](NLP/text-generation) | Language modelling | ⏳ |
+| 🔴 | [Text Generation](NLP/text-generation) | Markov chains: fluency vs copying, vs a neural model | ✅ |
 | 🔴 | [Question Answering](NLP/question-answering) | Extractive QA | ⏳ |
 
 ### 5 · Computer Vision (`CV/`, OpenCV + MediaPipe)
