@@ -75,7 +75,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟢 | [Haar Face Detection](CV/haar-face-eye-detection) | The classic cascade vs modern detectors on WIDER FACE | ✅ |
 | 🟢 | [Haar Face & Eye Detection](CV/haar-face-eye-detection) | Classic detectors | ⏳ |
 | 🟢 | [Virtual Painter](CV/virtual-painter) | Tracking a coloured pen under changing light, with exact ground truth | ✅ |
-| 🟡 | [Hand Detection](CV/hand-detection) | MediaPipe landmarks | ⏳ |
+| 🟡 | [Hand Detection](CV/hand-detection) | How size, zoom and confidence decide what MediaPipe finds | ✅ |
 | 🟡 | [Gesture Volume Controller](CV/gesture-volume-controller) | Landmarks → control signal | ⏳ |
 | 🔴 | [Object Detection](CV/object-detection) | Modern detectors | ⏳ |
 | 🔴 | [Face Recognition](CV/face-recognition) | Embeddings and thresholds | ⏳ |

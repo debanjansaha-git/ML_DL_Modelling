@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+statsmodels
+opencv-python
+mediapipe
+huggingface_hub
+matplotlib
+seaborn
+ipython
+jupyterlab
