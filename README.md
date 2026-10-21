@@ -32,7 +32,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟡 | [Credit Risk Analysis](ML/credit-risk-analysis) | Imbalance, calibration | ⏳ |
 | 🟡 | [Credit Card Fraud Detection](ML/credit-card-fraud-detection) | Precision vs recall, rare events | ⏳ |
 | 🟡 | [IPL Score Prediction](ML/ipl-score-prediction) | Feature engineering, ridge/lasso | ⏳ |
-| 🔴 | [Delhi Weather ARIMA](ML/delhi-weather-arima) | Stationarity tests, forecasting | ⏳ |
+| 🔴 | [Delhi Weather ARIMA](ML/delhi-weather-arima) | Trend tests, stationarity, AR forecasting skill by horizon | ✅ |
 
 ### 2 · Deep Learning (`DL/`, PyTorch)
 | Level | Project | You'll learn | Status |
