@@ -46,7 +46,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟡 | [Skin Cancer (HAM10000)](DL/skin-cancer-lesion-classification) | Class imbalance, fairness | ⏳ |
 | 🔴 | [Bidirectional LSTM](DL/bidirectional-lstm) | Sequence models | ⏳ |
 | 🔴 | [Stock Price LSTM](DL/stock-price-lstm) | Why forecasting prices fails | ⏳ |
-| 🔴 | [ECG Anomaly Detection](DL/ecg-anomaly-detection) | Autoencoders | ⏳ |
+| 🔴 | [ECG Anomaly Detection](DL/ecg-anomaly-detection) | Autoencoders, baselines, thresholds, dirty training data | ✅ |
 | 🔴 | [RL Shower Temperature](DL/rl-shower-temperature) | Reinforcement learning basics | ⏳ |
 
 ### 3 · Generative Models (`GAN/`)
