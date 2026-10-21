@@ -57,7 +57,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 ### 4 · Natural Language Processing (`NLP/`, 🤗 Transformers)
 | Level | Project | You'll learn | Status |
 |---|---|---|---|
-| 🟢 | [Spam Detection (TF-IDF)](NLP/spam-detection-tfidf) | Bag-of-words baseline | ⏳ |
+| 🟢 | [Spam Detection (TF-IDF)](NLP/spam-detection-tfidf) | TF-IDF, leakage checks, disguised spam | ✅ |
 | 🟡 | [SMS Spam with DistilBERT](NLP/sms-spam-distilbert) | Fine-tuning vs baseline | ⏳ |
 | 🟡 | [Hotel Review Sentiment](NLP/hotel-review-sentiment) | Text classification at scale | ⏳ |
 | 🟡 | [Sports Sentiment](NLP/sports-sentiment) | Noisy social text | ⏳ |
