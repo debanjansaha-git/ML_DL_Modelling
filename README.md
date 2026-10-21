@@ -38,7 +38,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | Level | Project | You'll learn | Status |
 |---|---|---|---|
 | 🟢 | [Linear Regression in PyTorch](DL/linear-regression-pytorch) | Autograd, gradient descent | ⏳ |
-| 🟢 | [Adam Optimizer](DL/adam-optimizer) | Why optimizers differ | ⏳ |
+| 🟢 | [Adam Optimizer](DL/adam-optimizer) | Adam from scratch, fair optimiser races, learning-rate sensitivity | ✅ |
 | 🟡 | [Housing Regression NN](DL/housing-regression-nn) | MLPs vs tree baselines | ⏳ |
 | 🟡 | [MNIST Multiclass](DL/mnist-multiclass) | Softmax, cross-entropy | ⏳ |
 | 🟡 | [CIFAR-10 CNN](DL/cifar10-cnn) | Convolutions, augmentation | ⏳ |
