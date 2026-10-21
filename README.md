@@ -39,7 +39,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 |---|---|---|---|
 | 🟢 | [Linear Regression in PyTorch](DL/linear-regression-pytorch) | Gradient descent, learning-rate limits, robust loss | ✅ |
 | 🟢 | [Adam Optimizer](DL/adam-optimizer) | Adam from scratch, fair optimiser races, learning-rate sensitivity | ✅ |
-| 🟡 | [Housing Regression NN](DL/housing-regression-nn) | MLPs vs tree baselines | ⏳ |
+| 🟡 | [Housing Regression NN](DL/housing-regression-nn) | Standardising, tree baselines, architecture, spatial errors | ✅ |
 | 🟡 | [MNIST Multiclass](DL/mnist-multiclass) | Softmax from scratch, calibration, shift robustness | ✅ |
 | 🟡 | [CIFAR-10 CNN](DL/cifar10-cnn) | Model ladder, augmentation, McNemar tests, confusion analysis | ✅ |
 | 🟡 | [Malaria Cell Classification](DL/malaria-cell-classification) | Transfer learning, medical imaging | ⏳ |
