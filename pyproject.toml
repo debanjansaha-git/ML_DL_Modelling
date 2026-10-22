@@ -31,6 +31,9 @@ cv = [
     "torch",
     "torchvision",
     "zxing-cpp>=3.1.1",
+    "pycocotools",
+    "datasets",
+    "huggingface_hub",
 ]
 dev = ["ruff", "pytest", "pre-commit", "pip-audit"]
 
