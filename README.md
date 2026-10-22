@@ -79,7 +79,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟡 | [Gesture Volume Controller](CV/gesture-volume-controller) | Why a pixel distance is not a pinch, tracker accuracy, and smoothing trade-offs | ✅ |
 | 🔴 | [Object Detection](CV/object-detection) | Modern detectors | ⏳ |
 | 🔴 | [Face Recognition](CV/face-recognition) | Embeddings and thresholds | ⏳ |
-| 🔴 | [Virtual Attendance](CV/virtual-attendance) | End-to-end face pipeline | ⏳ |
+| 🔴 | [Virtual Attendance](CV/virtual-attendance) | Measuring a face-recognition register: roster size, strangers, distance and wrong entries | ✅ |
 
 ## 🧭 How every project is laid out
 
