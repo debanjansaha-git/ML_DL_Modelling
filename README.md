@@ -63,7 +63,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟡 | [SMS Spam with DistilBERT](NLP/sms-spam-distilbert) | Fair validation, scarce data, disguise, calibration and cost | ✅ |
 | 🟡 | [Hotel Review Sentiment](NLP/hotel-review-sentiment) | Text classification at scale | ⏳ |
 | 🟡 | [Stock News Direction](NLP/stock-news-direction) | A split bug behind an 86% accuracy, base rates | ✅ |
-| 🟡 | [Multilingual Sentiment (BERT)](NLP/multilingual-sentiment-bert) | Multilingual transfer | ⏳ |
+| 🟡 | [Multilingual Sentiment (BERT)](NLP/multilingual-sentiment-bert) | Where "multilingual" ends: 6 languages, an English-only rival and a small local model | ✅ |
 | 🟡 | [Text Summarization](NLP/text-summarization) | Extractive vs abstractive | ⏳ |
 | 🔴 | [Text Generation](NLP/text-generation) | Markov chains: fluency vs copying, vs a neural model | ✅ |
 | 🔴 | [Question Answering](NLP/question-answering) | Extractive QA | ⏳ |
