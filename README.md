@@ -68,6 +68,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟡 | [Text Summarization](NLP/text-summarization) | ROUGE, the lead-3 baseline, TextRank, BART and what abstractive models invent | ✅ |
 | 🔴 | [Text Generation](NLP/text-generation) | Markov chains: fluency vs copying, vs a neural model | ✅ |
 | 🔴 | [Question Answering](NLP/question-answering) | SQuAD 2.0: abstention, threshold tuning and question types | ✅ |
+| 🔴 | [RAG & Vector Search](NLP/rag-vector-search) | Chunking, BM25 vs embeddings vs hybrid, FAISS indexes, Hit@k / MRR / NDCG and what retrieval does to answer quality | ✅ |
 
 ### 5 · Computer Vision (`CV/`, OpenCV + MediaPipe)
 | Level | Project | You'll learn | Status |

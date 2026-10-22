@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+torch
+transformers
+datasets
+sentence-transformers
+faiss-cpu
+huggingface_hub
+matplotlib
+seaborn
+ipython
+jupyterlab
