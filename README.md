@@ -34,6 +34,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟡 | [IPL Score Prediction](ML/ipl-score-prediction) | Time-aware evaluation, drift, cluster bootstrap, prediction intervals | ✅ |
 | 🔴 | [Delhi Weather ARIMA](ML/delhi-weather-arima) | Trend tests, stationarity, AR forecasting skill by horizon | ✅ |
 | 🔴 | [A/B Testing & Causal Inference](ML/ab-testing-causal-inference) | Power analysis, peeking, propensity-score matching and hidden confounding on simulated data with known truth | ✅ |
+| 🔴 | [Time-Series Backtesting & Drift](ML/time-series-backtesting-drift) | Walk-forward validation vs leaky k-fold, Diebold-Mariano, frozen vs refitted models, KS and PSI drift alarms | ✅ |
 
 ### 2 · Deep Learning (`DL/`, PyTorch)
 | Level | Project | You'll learn | Status |
