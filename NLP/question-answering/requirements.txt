@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+statsmodels
+torch
+transformers
+datasets
+huggingface_hub
+matplotlib
+seaborn
+ipython
+jupyterlab

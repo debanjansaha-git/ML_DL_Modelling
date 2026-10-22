@@ -66,7 +66,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟡 | [Multilingual Sentiment (BERT)](NLP/multilingual-sentiment-bert) | Where "multilingual" ends: 6 languages, an English-only rival and a small local model | ✅ |
 | 🟡 | [Text Summarization](NLP/text-summarization) | Extractive vs abstractive | ⏳ |
 | 🔴 | [Text Generation](NLP/text-generation) | Markov chains: fluency vs copying, vs a neural model | ✅ |
-| 🔴 | [Question Answering](NLP/question-answering) | Extractive QA | ⏳ |
+| 🔴 | [Question Answering](NLP/question-answering) | SQuAD 2.0: abstention, threshold tuning and question types | ✅ |
 
 ### 5 · Computer Vision (`CV/`, OpenCV + MediaPipe)
 | Level | Project | You'll learn | Status |
