@@ -50,10 +50,10 @@ Calibration tuned on clean images does not survive a change in the data.
 ## 🚀 How to Run (One-liner command)
 
 ```bash
-uv sync --extra dl --extra nlp && uv run jupyter lab DL/model-calibration-uncertainty/model_calibration_uncertainty.ipynb
+uv sync --extra dl && uv run jupyter lab DL/model-calibration-uncertainty/model_calibration_uncertainty.ipynb
 ```
 
-(`--extra nlp` brings the `datasets` library used to download the image sets.) CIFAR-10, CIFAR-100 and SVHN (about 400 MB) download on the first run. It uses a GPU if present and takes about 12 minutes on one. Standalone alternative: `pip install -r requirements.txt`.
+CIFAR-10, CIFAR-100 and SVHN (about 400 MB) download on the first run. It uses a GPU if present and takes about 12 minutes on one. Standalone alternative: `pip install -r requirements.txt`.
 
 ## ⚠️ Limitations & Edge Cases
 

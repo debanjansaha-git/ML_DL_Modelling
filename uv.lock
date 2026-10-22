@@ -2537,6 +2537,7 @@ dev = [
     { name = "ruff" },
 ]
 dl = [
+    { name = "datasets" },
     { name = "gymnasium" },
     { name = "stable-baselines3" },
     { name = "tensorboard" },
@@ -2579,6 +2580,7 @@ nlp = [
 requires-dist = [
     { name = "accelerate", marker = "extra == 'nlp'" },
     { name = "datasets", marker = "extra == 'cv'" },
+    { name = "datasets", marker = "extra == 'dl'" },
     { name = "datasets", marker = "extra == 'nlp'" },
     { name = "diffusers", marker = "extra == 'gan'" },
     { name = "evaluate", marker = "extra == 'nlp'" },

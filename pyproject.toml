@@ -20,7 +20,7 @@ dependencies = [
 # Install only the track you need, e.g. `uv sync --extra nlp`.
 [project.optional-dependencies]
 ml = ["xgboost", "lightgbm", "imbalanced-learn", "skops", "pmdarima", "xlrd"]
-dl = ["torch", "torchvision", "torchaudio", "torchmetrics", "tensorboard", "gymnasium", "stable-baselines3"]
+dl = ["torch", "torchvision", "torchaudio", "torchmetrics", "tensorboard", "gymnasium", "stable-baselines3", "datasets"]
 gan = ["torch", "torchvision", "diffusers", "torchmetrics[image]"]
 nlp = ["torch", "transformers", "datasets", "evaluate", "accelerate", "nltk", "safetensors", "rouge-score", "networkx", "faiss-cpu", "sentence-transformers"]
 cv = [
