@@ -49,7 +49,7 @@ wandb/
 .DS_Store
 Thumbs.db
 
-# --- Claude Code (CLAUDE.md stays tracked) ---
+# --- Local tooling (not tracked) ---
 .claude/
 CLAUDE.md
 
