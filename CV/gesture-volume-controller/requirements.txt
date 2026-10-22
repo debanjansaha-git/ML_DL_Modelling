@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+opencv-python
+mediapipe
+huggingface_hub
+matplotlib
+seaborn
+ipython
+jupyterlab
