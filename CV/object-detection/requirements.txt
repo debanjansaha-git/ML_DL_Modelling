@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+opencv-python
+torch
+torchvision
+pycocotools
+matplotlib
+seaborn
+ipython
+jupyterlab

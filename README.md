@@ -77,7 +77,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟢 | [Virtual Painter](CV/virtual-painter) | Tracking a coloured pen under changing light, with exact ground truth | ✅ |
 | 🟡 | [Hand Detection](CV/hand-detection) | How size, zoom and confidence decide what MediaPipe finds | ✅ |
 | 🟡 | [Gesture Volume Controller](CV/gesture-volume-controller) | Why a pixel distance is not a pinch, tracker accuracy, and smoothing trade-offs | ✅ |
-| 🔴 | [Object Detection](CV/object-detection) | Modern detectors | ⏳ |
+| 🔴 | [Object Detection](CV/object-detection) | COCO mAP, object size, crowding, thresholds and the accuracy-time trade-off | ✅ |
 | 🟡 | [Face Recognition](CV/face-recognition) | LFW verification: deep vs classic, thresholds, robustness and label noise | ✅ |
 | 🔴 | [Virtual Attendance](CV/virtual-attendance) | Measuring a face-recognition register: roster size, strangers, distance and wrong entries | ✅ |
 
