@@ -22,7 +22,7 @@ dependencies = [
 ml = ["xgboost", "lightgbm", "imbalanced-learn", "skops", "pmdarima", "xlrd"]
 dl = ["torch", "torchvision", "torchaudio", "torchmetrics", "tensorboard", "gymnasium", "stable-baselines3"]
 gan = ["torch", "torchvision", "diffusers", "torchmetrics[image]"]
-nlp = ["torch", "transformers", "datasets", "evaluate", "accelerate", "nltk", "safetensors"]
+nlp = ["torch", "transformers", "datasets", "evaluate", "accelerate", "nltk", "safetensors", "rouge-score", "networkx"]
 cv = [
     "opencv-python",
     "mediapipe",

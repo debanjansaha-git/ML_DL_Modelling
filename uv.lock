@@ -2534,7 +2534,10 @@ nlp = [
     { name = "accelerate" },
     { name = "datasets" },
     { name = "evaluate" },
+    { name = "networkx", version = "3.6.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
+    { name = "networkx", version = "3.7", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
     { name = "nltk" },
+    { name = "rouge-score" },
     { name = "safetensors" },
     { name = "torch" },
     { name = "transformers" },
@@ -2553,6 +2556,7 @@ requires-dist = [
     { name = "lightgbm", marker = "extra == 'ml'" },
     { name = "matplotlib" },
     { name = "mediapipe", marker = "extra == 'cv'" },
+    { name = "networkx", marker = "extra == 'nlp'" },
     { name = "nltk", marker = "extra == 'nlp'" },
     { name = "numpy" },
     { name = "onnxruntime", marker = "extra == 'cv'" },
@@ -2562,6 +2566,7 @@ requires-dist = [
     { name = "pmdarima", marker = "extra == 'ml'" },
     { name = "pre-commit", marker = "extra == 'dev'" },
     { name = "pytest", marker = "extra == 'dev'" },
+    { name = "rouge-score", marker = "extra == 'nlp'" },
     { name = "ruff", marker = "extra == 'dev'" },
     { name = "safetensors", marker = "extra == 'nlp'" },
     { name = "scikit-image", marker = "extra == 'cv'" },
@@ -4486,6 +4491,19 @@ sdist = { url = "https://files.pythonhosted.org/packages/c0/8f/0722ca900cc807c13
 wheels = [
     { url = "https://files.pythonhosted.org/packages/82/3b/64d4899d73f91ba49a8c18a8ff3f0ea8f1c1d75481760df8c68ef5235bf5/rich-15.0.0-py3-none-any.whl", hash = "sha256:33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb", size = 310654, upload-time = "2026-04-12T08:24:02.83Z" },
 ]
+
+[[package]]
+name = "rouge-score"
+version = "0.1.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "absl-py" },
+    { name = "nltk" },
+    { name = "numpy", version = "2.4.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
+    { name = "numpy", version = "2.5.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
+    { name = "six" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e2/c5/9136736c37022a6ad27fea38f3111eb8f02fe75d067f9a985cc358653102/rouge_score-0.1.2.tar.gz", hash = "sha256:c7d4da2683e68c9abf0135ef915d63a46643666f848e558a1b9f7ead17ff0f04", size = 17400, upload-time = "2022-07-22T22:46:22.909Z" }
 
 [[package]]
 name = "rpds-py"
