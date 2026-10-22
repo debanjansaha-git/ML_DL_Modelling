@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+scikit-learn
+nltk
+networkx
+rouge-score
+torch
+transformers
+datasets
+huggingface_hub
+matplotlib
+seaborn
+ipython
+jupyterlab

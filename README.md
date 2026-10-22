@@ -64,7 +64,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟡 | [Hotel Review Sentiment](NLP/hotel-review-sentiment) | Metadata leaks, swapped metrics, and how many labels a language model needs | ✅ |
 | 🟡 | [Stock News Direction](NLP/stock-news-direction) | A split bug behind an 86% accuracy, base rates | ✅ |
 | 🟡 | [Multilingual Sentiment (BERT)](NLP/multilingual-sentiment-bert) | Where "multilingual" ends: 6 languages, an English-only rival and a small local model | ✅ |
-| 🟡 | [Text Summarization](NLP/text-summarization) | Extractive vs abstractive | ⏳ |
+| 🟡 | [Text Summarization](NLP/text-summarization) | ROUGE, the lead-3 baseline, TextRank, BART and what abstractive models invent | ✅ |
 | 🔴 | [Text Generation](NLP/text-generation) | Markov chains: fluency vs copying, vs a neural model | ✅ |
 | 🔴 | [Question Answering](NLP/question-answering) | SQuAD 2.0: abstention, threshold tuning and question types | ✅ |
 
