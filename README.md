@@ -50,6 +50,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🔴 | [Stock Price LSTM](DL/stock-price-lstm) | Random walk, persistence baseline, Diebold-Mariano | ✅ |
 | 🔴 | [ECG Anomaly Detection](DL/ecg-anomaly-detection) | Autoencoders, baselines, thresholds, dirty training data | ✅ |
 | 🔴 | [RL Shower Temperature](DL/rl-shower-temperature) | Exact solution, rescaling, table vs DQN, extrapolation | ✅ |
+| 🔴 | [Model Calibration & Uncertainty](DL/model-calibration-uncertainty) | Reliability diagrams, ECE, temperature scaling, ensembles, selective prediction and calibration under dataset shift | ✅ |
 
 ### 3 · Generative Models (`GAN/`)
 | Level | Project | You'll learn | Status |
