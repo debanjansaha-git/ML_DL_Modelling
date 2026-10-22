@@ -54,7 +54,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 |---|---|---|---|
 | 🔴 | [DCGAN](GAN/dcgan) | Judging a GAN with a referee, recipe sensitivity, memorisation | ✅ |
 | 🔴 | [WGAN](GAN/wgan) | A loss that tracks quality, and how touchy weight clipping is | ✅ |
-| 🔴 | [WGAN-GP](GAN/wgan-gp) | Gradient penalty versus clipping | ⏳ |
+| 🔴 | [WGAN-GP](GAN/wgan-gp) | Gradient penalty vs clipping, penalty weight and why not batch norm | ✅ |
 
 ### 4 · Natural Language Processing (`NLP/`, 🤗 Transformers)
 | Level | Project | You'll learn | Status |
