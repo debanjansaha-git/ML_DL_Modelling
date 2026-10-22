@@ -83,6 +83,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🔴 | [Object Detection](CV/object-detection) | COCO mAP, object size, crowding, thresholds and the accuracy-time trade-off | ✅ |
 | 🟡 | [Face Recognition](CV/face-recognition) | LFW verification: deep vs classic, thresholds, robustness and label noise | ✅ |
 | 🔴 | [Virtual Attendance](CV/virtual-attendance) | Measuring a face-recognition register: roster size, strangers, distance and wrong entries | ✅ |
+| 🔴 | [CLIP Zero-Shot](CV/multimodal-clip-zero-shot) | Zero-shot vs probes vs fine-tuning, prompt wording, forgetting and corruption robustness | ✅ |
 
 ## 🧭 How every project is laid out
 
