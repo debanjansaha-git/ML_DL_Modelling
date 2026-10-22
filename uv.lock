@@ -2527,6 +2527,7 @@ cv = [
     { name = "scikit-image" },
     { name = "torch" },
     { name = "torchvision" },
+    { name = "transformers" },
     { name = "zxing-cpp" },
 ]
 dev = [
@@ -2623,6 +2624,7 @@ requires-dist = [
     { name = "torchvision", marker = "extra == 'cv'" },
     { name = "torchvision", marker = "extra == 'dl'" },
     { name = "torchvision", marker = "extra == 'gan'" },
+    { name = "transformers", marker = "extra == 'cv'" },
     { name = "transformers", marker = "extra == 'nlp'" },
     { name = "xgboost", marker = "extra == 'ml'" },
     { name = "xlrd", marker = "extra == 'ml'" },
