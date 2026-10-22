@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+statsmodels
+scikit-learn
+scikit-image
+opencv-python
+matplotlib
+seaborn
+ipython
+jupyterlab
