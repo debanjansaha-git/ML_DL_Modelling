@@ -33,6 +33,7 @@ Data and model weights are **not** stored in git. Each project downloads what it
 | 🟡 | [Credit Card Fraud Detection](ML/credit-card-fraud-detection) | Rare events, average precision, cost-based thresholds, time-ordered validation | ✅ |
 | 🟡 | [IPL Score Prediction](ML/ipl-score-prediction) | Time-aware evaluation, drift, cluster bootstrap, prediction intervals | ✅ |
 | 🔴 | [Delhi Weather ARIMA](ML/delhi-weather-arima) | Trend tests, stationarity, AR forecasting skill by horizon | ✅ |
+| 🔴 | [A/B Testing & Causal Inference](ML/ab-testing-causal-inference) | Power analysis, peeking, propensity-score matching and hidden confounding on simulated data with known truth | ✅ |
 
 ### 2 · Deep Learning (`DL/`, PyTorch)
 | Level | Project | You'll learn | Status |
